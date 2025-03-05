@@ -6,17 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF774CD32D78014E00D8F224 /* BudgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CD02D78014E00D8F224 /* BudgetsApp.swift */; };
+		EF774CD42D78014E00D8F224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CD12D78014E00D8F224 /* ContentView.swift */; };
+		EF774CD52D78014E00D8F224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF774CCD2D78014E00D8F224 /* Preview Assets.xcassets */; };
+		EF774CD62D78014E00D8F224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF774CCF2D78014E00D8F224 /* Assets.xcassets */; };
+		EF774CD92D7801E500D8F224 /* BudgetModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF774CD72D7801E500D8F224 /* BudgetModel.xcdatamodeld */; };
+		EF774CDD2D7803AE00D8F224 /* BudgetCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CDC2D7803AE00D8F224 /* BudgetCategory+CoreDataClass.swift */; };
+		EF774CE02D78053700D8F224 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CDF2D78053700D8F224 /* CoreDataManager.swift */; };
+		EF774CE32D78071B00D8F224 /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CE22D78071B00D8F224 /* AddBudgetCategoryView.swift */; };
+		EF774CE62D780A3B00D8F224 /* NumberFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CE52D780A3B00D8F224 /* NumberFormatter+Ext.swift */; };
+		EF774CE82D7816E300D8F224 /* BudgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CE72D7816E300D8F224 /* BudgetListView.swift */; };
+		EF774CEA2D78215E00D8F224 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CE92D78215E00D8F224 /* Transaction+CoreDataClass.swift */; };
+		EF774CEC2D7821DF00D8F224 /* BudgetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CEB2D7821DF00D8F224 /* BudgetDetailView.swift */; };
+		EF774CEE2D782AD900D8F224 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CED2D782AD900D8F224 /* TransactionListView.swift */; };
+		EF774CF02D78339500D8F224 /* BudgetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CEF2D78339500D8F224 /* BudgetSummaryView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF774CBC2D78014500D8F224 /* Budgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF774CCD2D78014E00D8F224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF774CCF2D78014E00D8F224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF774CD02D78014E00D8F224 /* BudgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsApp.swift; sourceTree = "<group>"; };
+		EF774CD12D78014E00D8F224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF774CD82D7801E500D8F224 /* BudgetModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BudgetModel.xcdatamodel; sourceTree = "<group>"; };
+		EF774CDC2D7803AE00D8F224 /* BudgetCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BudgetCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF774CDF2D78053700D8F224 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EF774CE22D78071B00D8F224 /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
+		EF774CE52D780A3B00D8F224 /* NumberFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Ext.swift"; sourceTree = "<group>"; };
+		EF774CE72D7816E300D8F224 /* BudgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListView.swift; sourceTree = "<group>"; };
+		EF774CE92D78215E00D8F224 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF774CEB2D7821DF00D8F224 /* BudgetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailView.swift; sourceTree = "<group>"; };
+		EF774CED2D782AD900D8F224 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		EF774CEF2D78339500D8F224 /* BudgetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF774CBE2D78014500D8F224 /* Budgets */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Budgets;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF774CB92D78014500D8F224 /* Frameworks */ = {
@@ -32,7 +55,7 @@
 		EF774CB32D78014500D8F224 = {
 			isa = PBXGroup;
 			children = (
-				EF774CBE2D78014500D8F224 /* Budgets */,
+				EF774CD22D78014E00D8F224 /* Budgets */,
 				EF774CBD2D78014500D8F224 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,67 @@
 				EF774CBC2D78014500D8F224 /* Budgets.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF774CCE2D78014E00D8F224 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CCD2D78014E00D8F224 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF774CD22D78014E00D8F224 /* Budgets */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CE42D780A2500D8F224 /* Extension */,
+				EF774CE12D7806FD00D8F224 /* View */,
+				EF774CDE2D78051D00D8F224 /* Manager */,
+				EF774CDA2D78034700D8F224 /* Model */,
+				EF774CD02D78014E00D8F224 /* BudgetsApp.swift */,
+				EF774CD12D78014E00D8F224 /* ContentView.swift */,
+				EF774CD72D7801E500D8F224 /* BudgetModel.xcdatamodeld */,
+				EF774CCF2D78014E00D8F224 /* Assets.xcassets */,
+				EF774CCE2D78014E00D8F224 /* Preview Content */,
+			);
+			path = Budgets;
+			sourceTree = "<group>";
+		};
+		EF774CDA2D78034700D8F224 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CDC2D7803AE00D8F224 /* BudgetCategory+CoreDataClass.swift */,
+				EF774CE92D78215E00D8F224 /* Transaction+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF774CDE2D78051D00D8F224 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CDF2D78053700D8F224 /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EF774CE12D7806FD00D8F224 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CE22D78071B00D8F224 /* AddBudgetCategoryView.swift */,
+				EF774CE72D7816E300D8F224 /* BudgetListView.swift */,
+				EF774CEB2D7821DF00D8F224 /* BudgetDetailView.swift */,
+				EF774CED2D782AD900D8F224 /* TransactionListView.swift */,
+				EF774CEF2D78339500D8F224 /* BudgetSummaryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF774CE42D780A2500D8F224 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF774CE52D780A3B00D8F224 /* NumberFormatter+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF774CBE2D78014500D8F224 /* Budgets */,
 			);
 			name = Budgets;
 			packageProductDependencies = (
@@ -109,6 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF774CD52D78014E00D8F224 /* Preview Assets.xcassets in Resources */,
+				EF774CD62D78014E00D8F224 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +202,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF774CE62D780A3B00D8F224 /* NumberFormatter+Ext.swift in Sources */,
+				EF774CE82D7816E300D8F224 /* BudgetListView.swift in Sources */,
+				EF774CD32D78014E00D8F224 /* BudgetsApp.swift in Sources */,
+				EF774CD42D78014E00D8F224 /* ContentView.swift in Sources */,
+				EF774CEA2D78215E00D8F224 /* Transaction+CoreDataClass.swift in Sources */,
+				EF774CDD2D7803AE00D8F224 /* BudgetCategory+CoreDataClass.swift in Sources */,
+				EF774CF02D78339500D8F224 /* BudgetSummaryView.swift in Sources */,
+				EF774CEC2D7821DF00D8F224 /* BudgetDetailView.swift in Sources */,
+				EF774CE32D78071B00D8F224 /* AddBudgetCategoryView.swift in Sources */,
+				EF774CEE2D782AD900D8F224 /* TransactionListView.swift in Sources */,
+				EF774CE02D78053700D8F224 /* CoreDataManager.swift in Sources */,
+				EF774CD92D7801E500D8F224 /* BudgetModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF774CD72D7801E500D8F224 /* BudgetModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF774CD82D7801E500D8F224 /* BudgetModel.xcdatamodel */,
+			);
+			currentVersion = EF774CD82D7801E500D8F224 /* BudgetModel.xcdatamodel */;
+			path = BudgetModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF774CB42D78014500D8F224 /* Project object */;
 }
